@@ -3,8 +3,6 @@ var conf = require('./config.js')
 var fs = require('fs')
 var readlineSync = require('readline-sync');
 
-var token = 'NjUwNDM4Mzk5MDQ3NDk5Nzk4.XfSKJw.dO7TyfIwvGzhvRYKb-3fDQANtp4';
-
 if (!conf.get('token'))
 {
   var tok = readlineSync.question(`
